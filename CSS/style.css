@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 7vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    right: 10%; 
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.lista-majte{
+    height: inherit;
+}
+
+.lista-majte li{
+    text-align: center;
+    padding-top: 13px;
+    height: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lista-majte li:hover{
+    background-color: aquamarine;
+}
+
+
+.lista-djathte{
+    border: 1px solid black;
+    height: 50%;
+}
+
+.lista-djathte li{
+    color: white;
+    background-color: blueviolet;
+    padding: 0px 10px;
+}
+
+.lista-djathte li:hover{
+    background-color: aquamarine;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.left-side{
+    display: flex;
+}
+
+.contact-us-container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    left: 10%;
+
+}
+
+.upper-box{
+    text-align: center;
+}
+
+.middle-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middle-box>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper {
+    flex-grow: 1;
+}
